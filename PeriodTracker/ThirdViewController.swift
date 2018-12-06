@@ -37,5 +37,9 @@ class ThirdViewController: UIViewController {
         }
     }
     
+    @IBAction func aboutTapped(_ sender: Any) {
+    }
+    
+    
 }
 

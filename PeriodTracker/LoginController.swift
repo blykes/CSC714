@@ -37,7 +37,7 @@ class LoginController: UIViewController {
   
     /// When user taps login button the login paramters are passed to Firebase using the Auth function and verified. If correct user is presented witht he home screen, if failed presented with an error.
     ///
-    /// - Parameter sender: Strings: user and pass from textfield/
+    /// - Parameter sender: Strings: user and pass from textfield
     @IBAction func loginTapped(_ sender: Any) {
        // navigateToMainInterface()
   

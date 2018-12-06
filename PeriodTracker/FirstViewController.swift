@@ -3,6 +3,7 @@
 //  PeriodTracker
 //
 //  Created by Brian Lykes on 10/7/18.
+//  Code by Minh Doan
 //  Copyright © 2018 Brian Lykes. All rights reserved.
 //
 
