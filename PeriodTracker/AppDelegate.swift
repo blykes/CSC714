@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Firebase
 import FirebaseAuth
-//import FirebaseDatabase
+import FirebaseDatabase
 import FirebaseFirestore
 import UserNotifications
 
@@ -22,9 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure() //configures and initializes firebase API
-        
-        
+        FirebaseApp.configure() //configures and initializes firebase API. Includes auth, Firestore and RTD. 
+
         //Notification settings
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]){
             (granted, error) in
